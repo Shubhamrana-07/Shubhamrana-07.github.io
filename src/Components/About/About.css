@@ -24,6 +24,10 @@
     display: flex;
     gap:80px;
 }
+.about-left img {
+    width: 100%;
+    height: auto;
+}
 .about-right{
     display: flex;
     flex-direction: column;
