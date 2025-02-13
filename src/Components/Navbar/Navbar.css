@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px auto;
 }
 .nav-menu {
     display: flex;
@@ -50,6 +52,7 @@
     
 .navbar{
         margin: 20px 50px;
+        padding: 0 10px;
     }
     .nav-connect{
         display: none;
