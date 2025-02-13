@@ -12,14 +12,17 @@
 }
 .mywork-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
 }
 .mywork-title img{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
+    width: 150px; /* Set the width to a smaller size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some spacing if needed */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 .mywork-container .work-item {
     position: relative;
@@ -49,9 +52,8 @@
     justify-content: center;
 }
 .mywork-container img{
-    box-sizing: border-box;
-    width: 419px;
-    height: 288px;
+   width: 360px; /* Reduce width */
+    height: 220px; /* Adjust height proportionally */
     transition: 0.3s;
     cursor: pointer;
 }
@@ -66,7 +68,7 @@
     gap: 15px;
     border-radius: 50px;
     border: 2px solid white;
-    padding: 30px 60px;
+    padding: 20px 40px;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 80px;

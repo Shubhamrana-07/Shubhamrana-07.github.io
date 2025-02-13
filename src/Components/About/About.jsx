@@ -8,11 +8,11 @@ const About = () => {
     <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
-        <img src={theme_pattern} alt="" />
+        <img src={theme_pattern} alt="Pattern" />
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="" />
+          <img src={profile_img} alt="Profile" />
         </div>
         <div className="about-right">
           <div className="about-para">
@@ -30,17 +30,20 @@ const About = () => {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p> <hr style={{ width: "70%" }} />{" "}
+              <p>HTML & CSS</p>
+              <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>React JS</p> <hr style={{ width: "80%" }} />{" "}
+              <p>React JS</p>
+              <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p> <hr style={{ width: "70%" }} />{" "}
+              <p>JavaScript</p>
+              <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
               <p>MYSQL</p>
-              <hr style={{ width: "70%" }} />{" "}
+              <hr style={{ width: "70%" }} />
             </div>
           </div>
         </div>

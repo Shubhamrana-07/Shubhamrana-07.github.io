@@ -9,8 +9,8 @@
 }
 .hero h1{
     text-align: center;
-    width: 70%;
-    font-size: 90px;
+    width: 75%;
+    font-size: 80px;
     font-weight: 600;
 }
 .hero h1 span{
@@ -34,13 +34,13 @@
     margin-bottom : 50px;
 }
 .hero-connect{
-    padding: 25px 45px;
+    padding: 22px 30px;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%,#b415ff 106.28%);
     cursor: pointer;
 }
 .hero-resume{
-    padding: 25px 75px;
+    padding: 22px 55px;
     border-radius:50px;
     border: solid 2px #fff;
     cursor: pointer;

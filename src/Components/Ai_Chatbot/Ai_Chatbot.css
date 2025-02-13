@@ -11,10 +11,13 @@
 }
 .ai-chatbot-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
 }
 .ai-chatbot-title img{
+    width: 150px; /* Set the width to a smaller size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some spacing if needed */
     position: absolute;
     bottom: 0;
     right: 0;
